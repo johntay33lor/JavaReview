@@ -14,7 +14,7 @@ public class WordCountString {
     }
 
     public static void main(String[] args) {
-        String input = "Happy birthday to you. Happy birthday to you. Happy birthday dear friend, Happy birthday to you!";
+        String input = "Happy birthday to you. Happy birthday to you. Happy birthday dear friend, Happy birthday to you.";
         HashMap<String, Integer> frequencyMap = countString(input);
 
         System.out.println(frequencyMap);
