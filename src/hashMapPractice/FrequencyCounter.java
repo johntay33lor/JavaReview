@@ -13,7 +13,7 @@ public class FrequencyCounter {
     }
 
     public static void main(String[] args) {
-        int[] input = {1,1,3,3,3,5,7,7,7,7};
+        int[] input = {1,1,3,3,3,5,7,7,7,7,8};
         HashMap<Integer, Integer> frequencyMap = frequency(input);
 
         System.out.println(frequencyMap);

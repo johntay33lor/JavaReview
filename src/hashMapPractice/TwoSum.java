@@ -19,7 +19,7 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        int[] input = {2,3,8,12};
+        int[] input = {2,3,8,9,12};
         int target = 12;
 
         boolean answer = hasTwoSum(input, target);
